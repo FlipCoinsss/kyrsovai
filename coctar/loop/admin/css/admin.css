@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap);
+
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.title {
+    font-size: 40px;
+    font-family: Poppins;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF6428;
+    
+}
+.back {
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF6428;
+    padding: 5px;
+}
+.back:hover {
+    background-color: green;
+}
+.text {
+    font-size: 20px;
+    font-weight: 700;
+    width: 400px;
+}
+.box {
+    margin-left: 10px;
+    border-radius: 40px;
+}
+.add-to-db {
+    margin-left: 68px;
+    text-align: center;
+    background: #FF6428;
+    border-radius: 40px;
+    padding: 8.5px 48px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3 ease 0;
+}
+.add-to-db:hover {
+    background-color: green;
+}
+.peack { 
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    background-color: #fff; 
+    padding: 16px 75px 16px 14px;
+    font-family: 'Roboto',sans-serif;
+    border-right: solid 3px #e9ebf1;
+    border-left: solid 3px #e9ebf1;
+    border-top: solid 3px #e9ebf1;
+    border-bottom: solid 1px #e9ebf1;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWZgRPvtxPhkB_GYREW6eQTHcviRWqiXnotyskuVkBICrWRWMX&s);
+    background-size:5%;
+    background-repeat: no-repeat;
+    background-position: 93%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;        
+}

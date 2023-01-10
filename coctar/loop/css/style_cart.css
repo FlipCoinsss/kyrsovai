@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap);
+
+
+
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+  
+    
+}
+.main_container {
+    display: flex;
+    align-items: center;
+    gap: 385px;
+}
+.text {
+    font-size: 20px;
+    font-weight: 700;
+}
+.send-email {
+    margin-left: 68px;
+    text-align: center;
+    background: #FF6428;
+    border-radius: 40px;
+    padding: 8.5px 48px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3 ease 0;
+}
+.send-email:hover {
+    background-color: green;
+}
+.title {
+    font-size: 40px;
+    font-family: Poppins;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF6428;
+    
+}
+.main-cart {
+    padding-bottom: 40px;
+}
+
+
+
+.del-goods {
+    border: none;
+    background: #FF6428;
+    color: #fff;
+    cursor: pointer;
+}
+.del-goods:hover {
+    background-color: green;
+}
+.minus-goods {
+    border: none;
+    background: #FF6428;
+    color: #fff;
+    cursor: pointer;
+}
+.minus-goods:hover {
+    background-color: green;
+}
+.plus-goods {
+    border: none;
+    background: #FF6428;
+    color: #fff;
+    cursor: pointer;
+}
+.plus-goods:hover {
+    background-color: green;
+}
+.email-field {
+    border: 5px solid rgb(107, 62, 27);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+.box {
+    margin-left: 10px;
+    border-radius: 40px;
+}
+.back {
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF6428;
+    padding: 5px;
+}
+.back:hover {
+    background-color: green;
+}
+.main {
+    padding-left: 40px;
+}

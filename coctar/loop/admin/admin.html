@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rhythm admin</title>
+    <link rel="stylesheet" href="css/admin.css">
+  </head>
+  <body>
+    <header class="container">
+      <a href="/coctar/loop/index.html" class="back">x</a>
+      <h2 class="title">About</h2>
+    </header>
+    <main class="container main">
+      <div class="goods-out"></div>
+      <h2>Product</h2>
+      <p class="text"> Name: <input class="box" type="text" id="gname"></p>
+      <p class="text"> Cost: <input class="box" type="text" id="gcost"></p>
+      <p class="text"> Description: <textarea class="box" id="gdescr"></textarea></p>
+      <p class="text"> Image: <input class="box" type="text" id="gimg"></p>
+      <p class="text"> Order: <input class="box" type="text" id="gorder"></p>
+      <input type="hidden" id="gid">
+      <button class="add-to-db">Update</button>
+    </main>
+    <footer></footer>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/admin.js"></script>
+  </body>
+</html>
